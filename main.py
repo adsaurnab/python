@@ -14,11 +14,6 @@
 
 
 
-
-
-
-
-
 def FindIntersection(strArr):
   
   # code goes here
