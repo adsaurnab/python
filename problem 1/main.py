@@ -22,5 +22,8 @@ def FindIntersection(strArr):
   print(datastring)
   return data
 
+def raw_input():
+    return ["1, 3, 4, 7, 13", "1, 2, 4, 13, 15"]
+
 # keep this function call here 
 print FindIntersection(raw_input())
