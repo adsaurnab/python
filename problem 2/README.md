@@ -39,6 +39,7 @@ Print the number of people who liked the advertisement during the first n days.
 Sample Input: 
 
 3
+
 Sample Output: 
 
 9
