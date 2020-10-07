@@ -8,12 +8,18 @@ Each day, floor(Recipients/2) of the recipients like the advertisement and will 
 
 For example, assume you want to know how many have liked the ad by the end of the 5th day.
 
-Day Shared Liked Cumulative
-1      5     2       2
-2      6     3       5
-3      9     4       9
-4     12     6      15
-5     18     9      24
+Day - Shared - Liked - Cumulative
+
+1   -   5  -   2    -   2
+
+2   -   6  -   3    -   5
+
+3  -    9   -  4    -   9
+
+4   -  12  -   6   -   15
+
+5  -   18  -   9   -   24
+
 The cumulative number of likes is 24.
 
 Function Description
@@ -39,6 +45,7 @@ Print the number of people who liked the advertisement during the first n days.
 Sample Input: 
 
 3
+
 Sample Output: 
 
 9
