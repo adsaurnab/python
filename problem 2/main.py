@@ -11,6 +11,10 @@ except:
 
 cumulative=0
 
+if days > 50:
+    days =50
+    print("You cant go above 50 days for input. So you are being shown for 50 days.")
+    
 print("Format: Day - Shared - Liked - Cumulative")
 for i in range(days):
     if i == 0:
@@ -22,5 +26,4 @@ for i in range(days):
         cumulative = cumulative + like
 
     print(i+1,'-', ini_share,'-', like,'-',cumulative)
-    
-    
+
