@@ -1,7 +1,5 @@
 def checkio(array: list) -> int:
-    """
-        sums even-indexes elements and multiply at the last
-    """
+    
     sum = 0
     for i in range(0,len(array)):
         if i%2 == 0:
