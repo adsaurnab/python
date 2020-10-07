@@ -8,17 +8,17 @@ Each day, floor(Recipients/2) of the recipients like the advertisement and will 
 
 For example, assume you want to know how many have liked the ad by the end of the 5th day.
 
-Day Shared Liked Cumulative
+Day - Shared - Liked - Cumulative
 
-1      5     2       2
+1   -   5  -   2    -   2
 
-2      6     3       5
+2   -   6  -   3    -   5
 
-3      9     4       9
+3  -    9   -  4    -   9
 
-4     12     6      15
+4   -  12  -   6   -   15
 
-5     18     9      24
+5  -   18  -   9   -   24
 
 The cumulative number of likes is 24.
 
